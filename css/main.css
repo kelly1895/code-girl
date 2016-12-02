@@ -1,5 +1,5 @@
 *{
-    
+    outline: 1px solid blue;
 }
 
 /*-------------------------------------------HEADER--------*/
@@ -9,16 +9,23 @@
 }
 
 .list-menu{
+   
     list-style: none;
 }
 
 .list-menu li{
     display: inline-block;
     padding: 10px;
+    padding-bottom:5px;
 }
 
 .list-menu li a{
+    
     text-decoration: none;
+}
+
+.list-menu li:hover{
+    background: #c3c2cc;
 }
 /*-------------------------------------------PORTADA-------*/
 .portada{
@@ -26,6 +33,28 @@
     background-size: 100%;
     width: 100%;
     height: 490px;
+}
+
+.hero{
+    margin: 150px 0;
+    text-align: center;
+}
+
+.hero h2{
+    color: white;
+}
+
+.hero button{
+    border-color: #2d2dad;
+    border-radius: 6px;
+    background: #2d2dad;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+.hero a{
+    color: white;
 }
 /*-------------------------------------------DOCUMENTAL----*/
 .documental{
@@ -36,8 +65,10 @@
 }
 /*-------------------------------------------HACKATON------*/
 .hackaton{
+    margin: 40px 0;    
     padding: 50px;
     background: yellow;
+  
 }
 .hackaton img{
     width: 100%;
@@ -46,12 +77,50 @@
 .hackaton h3{
     text-align: center;
 }
-/*-------------------------------------------CONTACTO------*/
 
+.inscribir{
+    margin: 50px 0;
+}
+.hackaton button{
+    border-radius: 4px;
+    border-color:#2d2dad;
+    background: #2d2dad;
+    border-radius: 4px;
+    width: 120px;
+    height: 30px;
+}
+
+.hackaton a{
+    color: white;
+}
+/*-------------------------------------------CONTACTO------*/
+.contacto{
+    margin: 50px 0;
+}
 input{
     margin-bottom: 10px;
-    border-radius: 5px;
+    
     width: 100%;
+}
+.laptop img{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+}
+
+.form button{
+    border-color: #2d2dad;
+    background: #2d2dad;
+    width:80px;
+    height: 30px;
+}
+
+.form a{
+    color: white;
+    text-decoration: none;
 }
 /*-------------------------------------------FOOTER--------*/
 footer{
@@ -61,4 +130,7 @@ footer{
 
 span{
     color: yellow;
-}
+
+    
+    
+    
