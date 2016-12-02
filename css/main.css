@@ -126,8 +126,12 @@ textarea{
 footer{
     background: #35adc9;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
+small{
+    color: white;
+}
 span{
     color: yellow;
 
