@@ -3,111 +3,141 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Coder Girl</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	
-	
 </head>
 <body>
 
-<!------------------------------------------------HEADER------>
-	<header class="encabezado">
+<!--------------------------------------------------HEADER--->
+	<header>
 	    <div class="container">
 	        <div class="row">
-	            <div class="col-md-8">
-	                <h4>Code Girls</h4>
-	            </div>
-	            
-	            <div class="col-md-4">
-	                <ul class="list-menu">
-	                   <li><a href="">Inicio</a></li>
-	                   <li><a href="">Documental</a></li>
-	                   <li><a href="">Hackaton</a></li>
-	                   <li><a href="">Contacto</a></li>
-	                </ul>
-	            </div>
-	        </div>
+	            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".menu" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                             </button>
+                             <a class="navbar-brand" href="#">Code Girls</a>
+                        </div>
+
+                    <div class="collapse navbar-collapse menu" >
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Documental</a></li>
+                            <li><a href="#">Hackaton</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 	    </div>
-	</header>
-
-<!-----------------------------------------------PORTADA------>
-<section class="portada">
-   <div class="container">
-      <div class="hero">
-           <h2>CHICAS QUE CAMBIAN EL MUNDO</h2>
-               <p><strong>¡Participa en nuestras actividades!</strong></p>
-               <button><a href="#">Inscribete</a></button>
-       </div>
-   </div>
-</section>
-<!--------------------------------------------DOCUMENTAL------>
-<section class="documental">
+     </div>
+  </header>
+<!------------------------------------------------PORTADA--->	
+    <section class="portada">
+	    <div class="container">
+	            <div class="box">
+	            <h1>CHICAS QUE CAMBIAN EL MUNDO</h1>
+	            <p><strong>¡Participa en nuestra actividades</strong></p>
+	            <button class="btn btn-primary">Inscribete</button>
+	            
+	            </div>
+	    </div>
+    </section>
+<!------------------------------------------------DOCUMENTAL--->	
+	<section class="documental">
     <div class="container">
         <div class="row">
-           <h3>VE NUESTRO DOCUMENTAL</h3>
-            <div class="col-md-6">
+            <h2>VE NUESTRO DOCUMENTAL</h2>
+            <div class="col-md-6 girl">
                 <h3>CODE GIRLS</h3>
-                <p>El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias(provenientes de Estados Unidos, Brasi, India y Méxio) que junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicacion que resuleva problemas en sus comunidades, en el marco de la competencia Technovation. </p>
-                
-                  <p>De la competencia ex puetsa en el documental participaron 300 equipos, de los cuales 44 llegaron a la semifinanl, luego de seis resultaron finalistas y finalmente el ganador recibió un premio de 10.000 dólares. </p>
+	            <p>
+	                El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias(provenientes de Estados Unidos, Brasi, India y Méxio) que junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicacion que resuleva problemas en sus comunidades, en el marco de la competencia Technovation.  
+	            </p>
+	    
+	            <p>
+	                De la competencia ex puetsa en el documental participaron 300 equipos, de los cuales 44 llegaron a la semifinanl, luego de seis resultaron finalistas y finalmente el ganador recibió un premio de 10.000 dólares. 
+	           </p>
             </div>
             
             <div class="col-md-6">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</section>
-<!----------------------------------------------HACKATON------>
-
-<section class="hackaton">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/hackathon.jpg" alt="">
-            </div>
-        
-            <div class="col-md-6 inscribir">
-                <h3>HACKATON</h3>
-                <p>¡Participa en nuestra hackaton "Love is Respect"</p>
-                <p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas geniales como tú. Nos reuniremos el 30 de septiembre desde las 10am.</p>
-                <button><a href="">Inscribete</a></button>
-            </div>
-        </div>
-    </div>
-</section>
-<!------------------------------------------------CONTACTO---->
-
-<section class="contacto">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 img-responsive laptop">
-               <img src="img/made_with_code.jpg" alt="">
-            </div>
-            
-            <div class="col-md-4 form">
-               <form class="form-group" action="">
-                <h3>CONTACTO</h3>
-                <p><strong>Code Girl</strong><br>795 Folsom Ave, Suite 600 <br>San Francisco, CA 94107 <br>Fono: (123) 456-7890</p>
-                <input type="text" placeholder="Nombre" >
-                <input type="text"placeholder="Email" >
-                <input type="text"placeholder="Asunto" >
-                <textarea name="Mensaje" id="" placeholder="Mensaje"></textarea>
-                <button><a href="#">Enviar</a></button>
+               <div class="embed-responsive embed-responsive-16by9">
+                       <iframe  src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
+                </div>
                 
-                </form>
             </div>
         </div>
     </div>
-</section>
-<!-----------------------------------------------FOOTER------->
-<footer class="">
-    <div class="container">
-        <small>  © 2016 Code Girl Diseñado por <span>Laboratoria</span></small>
-    </div>
-</footer>
-
+    
+    
+   </section>
+ <!---------------------------------------------HACKATON----->  
+   <section class="hackaton">
+       <div class="container">
+          
+           <div class="col-md-6">
+               <div>
+                   <img class="img-responsive" src="img/hackathon.jpg" alt="">
+               </div>
+           </div>
+           
+           <div class="col-md-6 ">
+              <h3>HACKATON</h3>
+                <p>
+                    ¡Participa en nuestra hackaton "Love is Respect"
+                </p>
+                <p>
+                    Idea soluciones a las problematicas que te presentaremos, rodeada de chicas geniales como tú. Nos reuniremos el 30 de septiembre desde las 10am.
+                </p>
+                <button class="btn btn-primary">Inscríbete</button>
+           </div>
+       </div>
+   </section>
+   
+<!-------------------------------------------------CONTACT--->
+   <section class="contact">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-7">
+                   <img class="img-responsive" src="img/made_with_code.jpg" alt="">
+               </div>
+               <div class="col-md-4">
+                  <form>
+                      <h3>CONTACTO</h3>
+                        <p><strong>Code Girl</strong><br>795 Folsom Ave, Suite 600 <br>San Francisco, CA 94107 <br>Fono: (123) 456-7890</p>
+                      <div class="form-group">
+                            <input type="text" class="form-control" id="eombre" placeholder="Nombre">
+                      </div>
+                      <div class="form-group">
+                            <input type="text" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      
+                      <div class="form-group">
+                            <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                      </div>
+                      
+                      <div class="form-group">
+                           <textarea name="text" rows=10 class="form-control"id="mensaje" placeholder="Mensaje"></textarea>
+                      </div>
+                      <button class="btn btn-primary">Enviar</button>
+                    </form>
+               </div>
+           </div>
+       </div>
+   </section>
+<!---------------------------------------------------FOOTER--->
+   <footer>
+       <div class="container">
+            <small>  © 2016 Code Girl Diseñado por <span>Laboratoria</span></small>
+        </div>
+   </footer>
+   
 </body>
 </html>
